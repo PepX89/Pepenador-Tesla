@@ -178,11 +178,11 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Gainsboro;
-            label4.Font = new Font("Bebas Neue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(169, 38);
+            label4.Size = new Size(276, 36);
             label4.TabIndex = 19;
             label4.Text = "CERRAR SESION";
             label4.Click += label4_Click;
@@ -191,11 +191,11 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.LightGray;
-            label3.Font = new Font("Bebas Neue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(168, 38);
+            label3.Size = new Size(270, 36);
             label3.TabIndex = 18;
             label3.Text = "   CONOCENOS   ";
             label3.Click += label3_Click;
@@ -204,11 +204,11 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.LightGray;
-            label2.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Black;
             label2.Location = new Point(299, 40);
             label2.Name = "label2";
-            label2.Size = new Size(153, 37);
+            label2.Size = new Size(251, 32);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
             label2.Click += label2_Click;
@@ -217,11 +217,11 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Gainsboro;
-            label1.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Black;
             label1.Location = new Point(96, 40);
             label1.Name = "label1";
-            label1.Size = new Size(152, 37);
+            label1.Size = new Size(239, 32);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
             label1.Click += label1_Click;
@@ -236,6 +236,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel2
             // 
