@@ -328,7 +328,7 @@
             // 
             pictureBox9.BackColor = Color.White;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(58, 53);
+            pictureBox9.Location = new Point(59, 53);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(39, 31);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
