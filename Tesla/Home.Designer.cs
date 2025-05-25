@@ -157,6 +157,7 @@
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox4);
+            panel1.Font = new Font("Roboto Slab", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1404, 109);
@@ -177,11 +178,11 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Gainsboro;
-            label4.Font = new Font("Bangers", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Bebas Neue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(1155, 33);
+            label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(146, 40);
+            label4.Size = new Size(169, 38);
             label4.TabIndex = 19;
             label4.Text = "CERRAR SESION";
             label4.Click += label4_Click;
@@ -190,11 +191,11 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.LightGray;
-            label3.Font = new Font("Bangers", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Bebas Neue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(896, 32);
+            label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(147, 40);
+            label3.Size = new Size(168, 38);
             label3.TabIndex = 18;
             label3.Text = "   CONOCENOS   ";
             label3.Click += label3_Click;
@@ -203,11 +204,11 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.LightGray;
-            label2.Font = new Font("Bangers", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(328, 32);
+            label2.Location = new Point(299, 40);
             label2.Name = "label2";
-            label2.Size = new Size(147, 40);
+            label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
             label2.Click += label2_Click;
@@ -216,11 +217,11 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Gainsboro;
-            label1.Font = new Font("Bangers", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(73, 33);
+            label1.Location = new Point(96, 40);
             label1.Name = "label1";
-            label1.Size = new Size(147, 40);
+            label1.Size = new Size(152, 37);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
             label1.Click += label1_Click;
@@ -258,7 +259,7 @@
             // 
             pictureBox16.BackColor = Color.White;
             pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
-            pictureBox16.Location = new Point(299, 54);
+            pictureBox16.Location = new Point(213, 53);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(45, 27);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -269,7 +270,7 @@
             // 
             pictureBox15.BackColor = Color.White;
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(1029, 59);
+            pictureBox15.Location = new Point(1120, 59);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(46, 22);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -281,7 +282,7 @@
             // 
             pictureBox14.BackColor = Color.White;
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(1216, 54);
+            pictureBox14.Location = new Point(1281, 53);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(39, 31);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -291,7 +292,7 @@
             // pictureBox13
             // 
             pictureBox13.BackColor = Color.White;
-            pictureBox13.Location = new Point(274, 44);
+            pictureBox13.Location = new Point(186, 44);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(95, 47);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -302,7 +303,7 @@
             // pictureBox12
             // 
             pictureBox12.BackColor = Color.White;
-            pictureBox12.Location = new Point(1179, 44);
+            pictureBox12.Location = new Point(1245, 44);
             pictureBox12.Margin = new Padding(80);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(110, 47);
@@ -314,7 +315,7 @@
             // pictureBox11
             // 
             pictureBox11.BackColor = Color.White;
-            pictureBox11.Location = new Point(1001, 44);
+            pictureBox11.Location = new Point(1097, 44);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(95, 47);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -326,9 +327,9 @@
             // 
             pictureBox9.BackColor = Color.White;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(126, 54);
+            pictureBox9.Location = new Point(58, 53);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(34, 28);
+            pictureBox9.Size = new Size(39, 31);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 17;
             pictureBox9.TabStop = false;
@@ -336,7 +337,7 @@
             // pictureBox10
             // 
             pictureBox10.BackColor = Color.White;
-            pictureBox10.Location = new Point(96, 44);
+            pictureBox10.Location = new Point(34, 44);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(95, 47);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -347,10 +348,10 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Permanent Marker", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(403, 39);
+            label5.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(356, 30);
             label5.Name = "label5";
-            label5.Size = new Size(572, 66);
+            label5.Size = new Size(674, 54);
             label5.TabIndex = 14;
             label5.Text = "Nuestro enfoque en inteligencia artificial, conducción autónoma y energía \r\nsostenible nos posiciona como una de las compañías más innovadoras del \r\nmundo. 🚀🔋";
             label5.Click += label5_Click;
