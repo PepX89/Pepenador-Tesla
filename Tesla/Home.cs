@@ -1,4 +1,8 @@
-﻿namespace Tesla
+﻿using System.Drawing;
+using System.Drawing.Drawing2D;
+
+
+namespace Tesla
 {
     public partial class Home : Form
     {
@@ -6,14 +10,52 @@
 
 
         {
-            InitializeComponent(); // No necesitas redefinir pictureBox1 aquí
+            InitializeComponent();
+        }
+        private void RedondearPictureBox(PictureBox pb, int radio)
+        {
+            GraphicsPath path = new GraphicsPath();//¿Qué hace GraphicsPath? Cuando usas GraphicsPath, creas un "camino" de dibujo que puede incluir: ✔ Líneas rectas(AddLine) ✔ Curvas Bézier(AddBezier) ✔ Arcos y círculos(AddArc) ✔ Polígonos(AddPolygon) ✔ Textos y formas complejas(AddString)Al definir este "camino", puedes aplicarlo a un Region, recortar una imagen o incluso rellenarlo con colores y texturas.
+            path.AddArc(0, 0, radio, radio, 180, 90);
+            path.AddArc(pb.Width - radio, 0, radio, radio, 270, 90);
+            path.AddArc(pb.Width - radio, pb.Height - radio, radio, radio, 0, 90);
+            path.AddArc(0, pb.Height - radio, radio, radio, 90, 90);
+            path.CloseFigure();//✔ Evita que el trazado quede abierto. ✔ Asegura que la figura se pueda rellenar correctamente. ✔ Hace que el contorno se cierre sin necesidad de agregar manualmente la última línea.
 
+            pb.Region = new Region(path); //Aplica la forma del pictueBox
+        }
+        private void RedondearBoton(Button btn, int radio)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddArc(0, 0, radio, radio, 180, 90);
+            path.AddArc(btn.Width - radio, 0, radio, radio, 270, 90);
+            path.AddArc(btn.Width - radio, btn.Height - radio, radio, radio, 0, 90);
+            path.AddArc(0, btn.Height - radio, radio, radio, 90, 90);
+            path.CloseFigure();
 
+            btn.Region = new Region(path); //Aplica la forma al botón
+        }
+        private void RedondearLabel(Label btn, int radio)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddArc(0, 0, radio, radio, 180, 90);
+            path.AddArc(btn.Width - radio, 0, radio, radio, 270, 90);
+            path.AddArc(btn.Width - radio, btn.Height - radio, radio, radio, 0, 90);
+            path.AddArc(0, btn.Height - radio, radio, radio, 90, 90);
+            path.CloseFigure();
+
+            btn.Region = new Region(path); //Aplica la forma al botón
         }
         private void Home_Load(object sender, EventArgs e)
         {
 
-
+            RedondearPictureBox(pictureBox10, 50);
+            RedondearPictureBox(pictureBox11, 50);
+            RedondearPictureBox(pictureBox12, 50);
+            RedondearPictureBox(pictureBox13, 50);
+            RedondearLabel(label1, 10);
+            RedondearLabel(label2, 10);
+            RedondearLabel(label3, 10);
+            RedondearLabel(label4, 10);
 
         }
 
@@ -63,6 +105,51 @@
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
