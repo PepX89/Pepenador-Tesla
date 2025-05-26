@@ -348,7 +348,7 @@
             button2.BackColor = Color.Black;
             button2.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(1065, 591);
+            button2.Location = new Point(1065, 603);
             button2.Name = "button2";
             button2.Size = new Size(301, 29);
             button2.TabIndex = 15;
