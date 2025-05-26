@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Tesla
 {
-    public partial class Tesla_Drive: Form
+    public partial class Tesla_Drive : Form
     {
         public Tesla_Drive()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -51,6 +51,12 @@
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox5 = new PictureBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            pictureBox6 = new PictureBox();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -68,16 +74,20 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(34, 418);
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(34, 422);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(301, 185);
+            pictureBox1.Size = new Size(301, 210);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // panel1
             // 
@@ -178,16 +188,16 @@
             panel2.Controls.Add(pictureBox10);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(pictureBox8);
-            panel2.Location = new Point(0, 624);
+            panel2.Location = new Point(0, 650);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1404, 120);
+            panel2.Size = new Size(1404, 94);
             panel2.TabIndex = 10;
             // 
             // pictureBox16
             // 
             pictureBox16.BackColor = Color.White;
             pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
-            pictureBox16.Location = new Point(213, 53);
+            pictureBox16.Location = new Point(213, 44);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(45, 27);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -198,7 +208,7 @@
             // 
             pictureBox15.BackColor = Color.White;
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(1120, 59);
+            pictureBox15.Location = new Point(1120, 49);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(46, 22);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -209,7 +219,7 @@
             // 
             pictureBox14.BackColor = Color.White;
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(1281, 53);
+            pictureBox14.Location = new Point(1286, 44);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(39, 31);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -219,7 +229,7 @@
             // pictureBox13
             // 
             pictureBox13.BackColor = Color.White;
-            pictureBox13.Location = new Point(186, 44);
+            pictureBox13.Location = new Point(186, 34);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(95, 47);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -229,7 +239,7 @@
             // pictureBox12
             // 
             pictureBox12.BackColor = Color.White;
-            pictureBox12.Location = new Point(1245, 44);
+            pictureBox12.Location = new Point(1249, 34);
             pictureBox12.Margin = new Padding(80);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(110, 47);
@@ -240,7 +250,7 @@
             // pictureBox11
             // 
             pictureBox11.BackColor = Color.White;
-            pictureBox11.Location = new Point(1097, 44);
+            pictureBox11.Location = new Point(1097, 34);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(95, 47);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -251,7 +261,7 @@
             // 
             pictureBox9.BackColor = Color.White;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(58, 53);
+            pictureBox9.Location = new Point(59, 44);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(39, 31);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -261,7 +271,7 @@
             // pictureBox10
             // 
             pictureBox10.BackColor = Color.White;
-            pictureBox10.Location = new Point(34, 44);
+            pictureBox10.Location = new Point(34, 34);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(95, 47);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -292,30 +302,104 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(368, 418);
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(376, 422);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(301, 185);
+            pictureBox2.Size = new Size(301, 210);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 11;
             pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(1065, 418);
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(1065, 422);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(301, 173);
+            pictureBox3.Size = new Size(301, 198);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 12;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox5
             // 
-            pictureBox5.Location = new Point(729, 418);
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(720, 422);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(301, 185);
+            pictureBox5.Size = new Size(301, 210);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 13;
             pictureBox5.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Black;
+            button1.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(34, 603);
+            button1.Name = "button1";
+            button1.Size = new Size(301, 29);
+            button1.TabIndex = 14;
+            button1.Text = "TESLA MODEL 3";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Black;
+            button2.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.ButtonHighlight;
+            button2.Location = new Point(1065, 591);
+            button2.Name = "button2";
+            button2.Size = new Size(301, 29);
+            button2.TabIndex = 15;
+            button2.Text = "TESLA MODEL Y";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Black;
+            button3.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.Location = new Point(720, 603);
+            button3.Name = "button3";
+            button3.Size = new Size(301, 29);
+            button3.TabIndex = 16;
+            button3.Text = "TESLA MODEL X";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Black;
+            button4.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.Location = new Point(376, 603);
+            button4.Name = "button4";
+            button4.Size = new Size(301, 29);
+            button4.TabIndex = 17;
+            button4.Text = "TESLA MODEL S";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(496, 137);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(387, 262);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 18;
+            pictureBox6.TabStop = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Black;
+            button5.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Location = new Point(496, 370);
+            button5.Name = "button5";
+            button5.Size = new Size(387, 29);
+            button5.TabIndex = 19;
+            button5.Text = "TESLA CYBERTRUCK";
+            button5.UseVisualStyleBackColor = false;
             // 
             // Tesla_Drive
             // 
@@ -323,6 +407,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1395, 744);
+            Controls.Add(button5);
+            Controls.Add(pictureBox6);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
@@ -350,6 +440,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
         }
 
@@ -377,5 +468,11 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox5;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private PictureBox pictureBox6;
+        private Button button5;
     }
 }
