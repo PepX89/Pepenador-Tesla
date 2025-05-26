@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Tesla
 {
-    public partial class CybertruckBuy: Form
+    public partial class CybertruckBuy : Form
     {
         public CybertruckBuy()
         {
             InitializeComponent();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
