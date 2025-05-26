@@ -391,6 +391,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1395, 744);
             Controls.Add(pictureBox5);
             Controls.Add(label10);
