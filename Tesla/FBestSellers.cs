@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Tesla
 {
-    public partial class FBestSellers: Form
+    public partial class FBestSellers : Form
     {
         public FBestSellers()
         {
             InitializeComponent();
+        }
+
+        private void FBestSellers_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

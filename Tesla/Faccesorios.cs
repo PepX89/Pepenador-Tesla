@@ -67,5 +67,38 @@ namespace Tesla
             f4.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FBestSellers f1 = new FBestSellers();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FMochilas f2 = new FMochilas();
+            f2.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FTermos f3 = new FTermos();
+            f3.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FMinitesla f4 = new FMinitesla();
+            f4.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
