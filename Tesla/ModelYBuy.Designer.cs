@@ -47,6 +47,11 @@
             pictureBox10 = new PictureBox();
             label5 = new Label();
             pictureBox8 = new PictureBox();
+            panel3 = new Panel();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            button5 = new Button();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -60,6 +65,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -273,12 +282,70 @@
             pictureBox8.TabIndex = 15;
             pictureBox8.TabStop = false;
             // 
+            // panel3
+            // 
+            panel3.BackColor = SystemColors.ActiveCaptionText;
+            panel3.Controls.Add(pictureBox3);
+            panel3.Location = new Point(812, 356);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(552, 250);
+            panel3.TabIndex = 27;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.Transparent;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(85, 41);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(378, 168);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 24;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(812, 139);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(552, 211);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 26;
+            pictureBox2.TabStop = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Black;
+            button5.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Location = new Point(31, 547);
+            button5.Name = "button5";
+            button5.Size = new Size(730, 59);
+            button5.TabIndex = 25;
+            button5.Text = "AÑADIR AL CARRITO";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(31, 139);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(730, 413);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 24;
+            pictureBox1.TabStop = false;
+            // 
             // ModelYBuy
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(1395, 744);
+            Controls.Add(panel3);
+            Controls.Add(pictureBox2);
+            Controls.Add(button5);
+            Controls.Add(pictureBox1);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "ModelYBuy";
@@ -298,6 +365,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -321,5 +392,10 @@
         private PictureBox pictureBox10;
         private Label label5;
         private PictureBox pictureBox8;
+        private Panel panel3;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private Button button5;
+        private PictureBox pictureBox1;
     }
 }
