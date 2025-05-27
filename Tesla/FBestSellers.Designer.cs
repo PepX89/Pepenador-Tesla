@@ -36,9 +36,6 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox4 = new PictureBox();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
             panel2 = new Panel();
             pictureBox16 = new PictureBox();
             pictureBox15 = new PictureBox();
@@ -59,6 +56,9 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -108,23 +108,24 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Gainsboro;
-            label4.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold);
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(276, 36);
+            label4.Size = new Size(157, 37);
             label4.TabIndex = 19;
             label4.Text = "CERRAR SESION";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.LightGray;
-            label3.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold);
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(270, 36);
+            label3.Size = new Size(155, 37);
             label3.TabIndex = 18;
             label3.Text = "   CONOCENOS   ";
             // 
@@ -132,23 +133,24 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.LightGray;
-            label2.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold);
             label2.ForeColor = Color.Black;
             label2.Location = new Point(299, 40);
             label2.Name = "label2";
-            label2.Size = new Size(251, 32);
+            label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Gainsboro;
-            label1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Bebas Neue", 16.2F, FontStyle.Bold);
             label1.ForeColor = Color.Black;
             label1.Location = new Point(96, 40);
             label1.Name = "label1";
-            label1.Size = new Size(239, 32);
+            label1.Size = new Size(152, 37);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
             // 
@@ -162,43 +164,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Black;
-            button3.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Location = new Point(993, 452);
-            button3.Name = "button3";
-            button3.Size = new Size(332, 29);
-            button3.TabIndex = 39;
-            button3.Text = "Levitating Cybertruck";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Black;
-            button2.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(545, 452);
-            button2.Name = "button2";
-            button2.Size = new Size(332, 29);
-            button2.TabIndex = 38;
-            button2.Text = "Tesla Bot Action Figure";
-            button2.TextImageRelation = TextImageRelation.TextAboveImage;
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Black;
-            button1.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(112, 452);
-            button1.Name = "button1";
-            button1.Size = new Size(332, 29);
-            button1.TabIndex = 37;
-            button1.Text = "Cybertruck Wind-Up Racer";
-            button1.UseVisualStyleBackColor = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel2
             // 
@@ -361,7 +327,7 @@
             label6.BackColor = SystemColors.Desktop;
             label6.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(125, 484);
+            label6.Location = new Point(122, 466);
             label6.Name = "label6";
             label6.Size = new Size(305, 72);
             label6.TabIndex = 24;
@@ -374,7 +340,7 @@
             label7.BackColor = SystemColors.Desktop;
             label7.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(585, 484);
+            label7.Location = new Point(585, 467);
             label7.Name = "label7";
             label7.Size = new Size(269, 90);
             label7.TabIndex = 40;
@@ -387,7 +353,7 @@
             label8.BackColor = SystemColors.Desktop;
             label8.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(941, 484);
+            label8.Location = new Point(941, 467);
             label8.Name = "label8";
             label8.Size = new Size(431, 36);
             label8.TabIndex = 41;
@@ -430,21 +396,60 @@
             button6.Text = "Añadir al carrito";
             button6.UseVisualStyleBackColor = false;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = SystemColors.Desktop;
+            label9.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(112, 449);
+            label9.Name = "label9";
+            label9.Size = new Size(332, 18);
+            label9.TabIndex = 45;
+            label9.Text = "      Cybertruck Wind-Up Racer      ";
+            label9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.BackColor = SystemColors.Desktop;
+            label10.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(545, 449);
+            label10.Name = "label10";
+            label10.Size = new Size(332, 18);
+            label10.TabIndex = 46;
+            label10.Text = "       Tesla Bot Action Figure      ";
+            label10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = SystemColors.Desktop;
+            label11.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.White;
+            label11.Location = new Point(993, 449);
+            label11.Name = "label11";
+            label11.Size = new Size(332, 18);
+            label11.TabIndex = 47;
+            label11.Text = "       Levitating Cybertruck        ";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // FBestSellers
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1395, 744);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(label9);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(panel2);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox1);
@@ -484,9 +489,6 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
         private Panel panel2;
         private PictureBox pictureBox16;
         private PictureBox pictureBox15;
@@ -507,5 +509,8 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        private Label label9;
+        private Label label10;
+        private Label label11;
     }
 }

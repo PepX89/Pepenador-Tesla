@@ -21,5 +21,24 @@ namespace Tesla
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Faccesorios f1 = new Faccesorios();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Home f2 = new Home();
+            f2.Show();
+            this.Hide();
+        }
     }
 }

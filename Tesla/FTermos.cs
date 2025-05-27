@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace Tesla
 {
-    public partial class FTermos: Form
+    public partial class FTermos : Form
     {
         public FTermos()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Faccesorios f1 = new Faccesorios();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Home f2 = new Home();
+            f2.Show();
+            this.Hide();
+
         }
     }
 }
