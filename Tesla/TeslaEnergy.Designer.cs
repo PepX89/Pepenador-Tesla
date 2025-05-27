@@ -54,6 +54,8 @@
             pictureBox6 = new PictureBox();
             label6 = new Label();
             label7 = new Label();
+            pictureBox17 = new PictureBox();
+            button5 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -72,6 +74,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -344,7 +347,7 @@
             label6.BackColor = Color.Black;
             label6.Font = new Font("Unispace", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(96, 535);
+            label6.Location = new Point(95, 130);
             label6.Name = "label6";
             label6.Size = new Size(479, 33);
             label6.TabIndex = 21;
@@ -356,11 +359,34 @@
             label7.BackColor = Color.Black;
             label7.Font = new Font("Unispace", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(811, 535);
+            label7.Location = new Point(811, 130);
             label7.Name = "label7";
             label7.Size = new Size(479, 33);
             label7.TabIndex = 22;
             label7.Text = "       ILUMINA LA NOCHE      ";
+            // 
+            // pictureBox17
+            // 
+            pictureBox17.BackColor = Color.White;
+            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
+            pictureBox17.Location = new Point(-18, 600);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(1420, 10);
+            pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox17.TabIndex = 20;
+            pictureBox17.TabStop = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Black;
+            button5.Font = new Font("Unispace", 13.7999992F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Location = new Point(492, 572);
+            button5.Name = "button5";
+            button5.Size = new Size(396, 61);
+            button5.TabIndex = 27;
+            button5.Text = "ADQUIERE TUS PANELES";
+            button5.UseVisualStyleBackColor = false;
             // 
             // TeslaEnergy
             // 
@@ -368,6 +394,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(1395, 744);
+            Controls.Add(button5);
+            Controls.Add(pictureBox17);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(pictureBox6);
@@ -379,6 +407,7 @@
             Controls.Add(panel1);
             Name = "TeslaEnergy";
             Text = "Form1";
+            Load += TeslaEnergy_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
@@ -399,6 +428,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -430,5 +460,7 @@
         private PictureBox pictureBox6;
         private Label label6;
         private Label label7;
+        private PictureBox pictureBox17;
+        private Button button5;
     }
 }
