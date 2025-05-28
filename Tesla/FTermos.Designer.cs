@@ -296,6 +296,7 @@
             label1.Size = new Size(152, 37);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
+            label1.Click += label1_Click;
             // 
             // pictureBox4
             // 

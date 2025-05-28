@@ -106,6 +106,9 @@ namespace Tesla
 
         private void label1_Click(object sender, EventArgs e)
         {
+            Fcarga F1 = new Fcarga();
+            F1.Show();
+            this.Hide();
 
         }
 

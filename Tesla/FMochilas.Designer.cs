@@ -283,6 +283,7 @@
             label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -295,6 +296,7 @@
             label1.Size = new Size(152, 37);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
+            label1.Click += label1_Click;
             // 
             // pictureBox4
             // 
@@ -306,6 +308,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel2
             // 

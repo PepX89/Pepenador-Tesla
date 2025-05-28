@@ -153,6 +153,7 @@
             label1.Size = new Size(152, 37);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
+            label1.Click += label1_Click;
             // 
             // pictureBox4
             // 
@@ -294,7 +295,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(993, 196);
+            pictureBox3.Location = new Point(993, 217);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(332, 250);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -304,7 +305,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(545, 196);
+            pictureBox1.Location = new Point(545, 214);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(332, 250);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -314,7 +315,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(112, 196);
+            pictureBox6.Location = new Point(112, 217);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(332, 250);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -402,7 +403,7 @@
             label9.BackColor = SystemColors.Desktop;
             label9.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.White;
-            label9.Location = new Point(112, 449);
+            label9.Location = new Point(112, 196);
             label9.Name = "label9";
             label9.Size = new Size(332, 18);
             label9.TabIndex = 45;
@@ -415,7 +416,7 @@
             label10.BackColor = SystemColors.Desktop;
             label10.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ForeColor = Color.White;
-            label10.Location = new Point(545, 449);
+            label10.Location = new Point(545, 196);
             label10.Name = "label10";
             label10.Size = new Size(332, 18);
             label10.TabIndex = 46;
@@ -428,7 +429,7 @@
             label11.BackColor = SystemColors.Desktop;
             label11.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(993, 449);
+            label11.Location = new Point(993, 196);
             label11.Name = "label11";
             label11.Size = new Size(332, 18);
             label11.TabIndex = 47;

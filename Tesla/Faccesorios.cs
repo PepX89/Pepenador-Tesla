@@ -100,5 +100,12 @@ namespace Tesla
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Fcarga f5 = new Fcarga();
+            f5.Show();
+            this.Hide();
+        }
     }
 }

@@ -83,7 +83,7 @@
             label11.BackColor = SystemColors.Desktop;
             label11.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(993, 450);
+            label11.Location = new Point(993, 197);
             label11.Name = "label11";
             label11.Size = new Size(332, 18);
             label11.TabIndex = 73;
@@ -96,7 +96,7 @@
             label10.BackColor = SystemColors.Desktop;
             label10.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ForeColor = Color.White;
-            label10.Location = new Point(545, 450);
+            label10.Location = new Point(545, 197);
             label10.Name = "label10";
             label10.Size = new Size(332, 18);
             label10.TabIndex = 72;
@@ -109,7 +109,7 @@
             label9.BackColor = SystemColors.Desktop;
             label9.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.White;
-            label9.Location = new Point(112, 450);
+            label9.Location = new Point(112, 197);
             label9.Name = "label9";
             label9.Size = new Size(332, 18);
             label9.TabIndex = 71;
@@ -194,7 +194,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(993, 197);
+            pictureBox3.Location = new Point(993, 218);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(332, 250);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -204,7 +204,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(545, 197);
+            pictureBox1.Location = new Point(545, 218);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(332, 250);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -214,7 +214,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(112, 197);
+            pictureBox6.Location = new Point(112, 214);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(332, 250);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -283,6 +283,7 @@
             label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -295,6 +296,7 @@
             label1.Size = new Size(152, 37);
             label1.TabIndex = 16;
             label1.Text = "        CARGA       ";
+            label1.Click += label1_Click;
             // 
             // pictureBox4
             // 
@@ -306,6 +308,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel2
             // 
@@ -436,6 +439,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1395, 744);
             Controls.Add(panel2);
             Controls.Add(label11);
