@@ -10,11 +10,52 @@ using System.Windows.Forms;
 
 namespace Tesla
 {
-    public partial class Model3Buy: Form
+    public partial class Model3Buy : Form
     {
+        int modelcount = Register.Model3.count;
         public Model3Buy()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Faccesorios accesorios = new Faccesorios();
+            accesorios.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Tesla_Drive drive = new Tesla_Drive();
+            drive.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            String model3 = "Tesla Model 3, Modelo 2025";
+            modelcount++;
+
+            Register.Model3.Models = model3;
+            Register.Model3.count = modelcount;
+
+            MessageBox.Show("Articulo añadido al carrito!");
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            TeslaShop shop = new TeslaShop();
+            shop.Show();
+            this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.Show();
+            this.Hide();
         }
     }
 }

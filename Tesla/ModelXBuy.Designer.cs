@@ -94,9 +94,10 @@
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(169, 38);
+            label4.Size = new Size(230, 38);
             label4.TabIndex = 19;
-            label4.Text = "CERRAR SESION";
+            label4.Text = "CARRITO DE COMPRAS";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
@@ -106,9 +107,10 @@
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(168, 38);
+            label3.Size = new Size(153, 38);
             label3.TabIndex = 18;
-            label3.Text = "   CONOCENOS   ";
+            label3.Text = "      SESION     ";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -121,6 +123,7 @@
             label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -144,6 +147,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox7
             // 
@@ -305,9 +309,9 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(812, 139);
+            pictureBox2.Location = new Point(812, 133);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(552, 211);
+            pictureBox2.Size = new Size(552, 226);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 26;
             pictureBox2.TabStop = false;
@@ -323,6 +327,7 @@
             button5.TabIndex = 25;
             button5.Text = "AÑADIR AL CARRITO";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // pictureBox1
             // 
@@ -349,6 +354,7 @@
             Controls.Add(pictureBox7);
             Controls.Add(panel1);
             Name = "ModelXBuy";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tesla Drive";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

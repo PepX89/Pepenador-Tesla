@@ -124,9 +124,10 @@
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(169, 38);
+            label4.Size = new Size(230, 38);
             label4.TabIndex = 19;
-            label4.Text = "CERRAR SESION";
+            label4.Text = "CARRITO DE COMPRAS";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
@@ -136,9 +137,10 @@
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(168, 38);
+            label3.Size = new Size(153, 38);
             label3.TabIndex = 18;
-            label3.Text = "   CONOCENOS   ";
+            label3.Text = "      SESION     ";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -151,6 +153,7 @@
             label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -174,6 +177,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel2
             // 
@@ -309,6 +313,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 11;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
@@ -330,6 +335,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 13;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // button1
             // 
@@ -388,6 +394,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 18;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // button5
             // 
@@ -420,6 +427,7 @@
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
             Name = "Tesla_Drive";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tesla_Drive";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);

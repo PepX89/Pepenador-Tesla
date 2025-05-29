@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tesla.Properties.Resources" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Faccesorios" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMhQAACAAARQAAECAQAACAEA4AAAAQHAoAYBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.FBestSellers" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAMhQAACAAARAABACAAgACAMABAAAAQAAuAQBAAAA=</HashCode>
+      <FileName>FBestSellers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.FMinitesla" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAMhQAACAAARAABACAAAACAMABAAAAQAAvAQBAAAA=</HashCode>
+      <FileName>FMinitesla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.FMochilas" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAMhQAACAAARAABACAAAACAMABAAAAQAAuAQBAAAA=</HashCode>
+      <FileName>FMochilas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.FTermos" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAMhQAACAAARAABACAAAACAMABAAAAQAAuAQBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Home" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgMhQAACCQAVAAABCAUAQCAMA4ICAAQHAgAYBAIAA=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Model3Buy" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhQAACAAARAAAACAAAACAIAAAAAAQAAkAQBAAAA=</HashCode>
+      <FileName>Model3Buy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.ModelCybertruckBuy" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAhQAACAAARAABACAAAACAIAAAAAAQAAkAYBAAAA=</HashCode>
+      <FileName>ModelCybertruckBuy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.ModelSBuy" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhQAACAAARAABACAAAACAIAAAAAAQAAkAQBACAA=</HashCode>
+      <FileName>ModelSBuy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.ModelXBuy" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhQAACAAARAABACAAAACAIAAAAAAQAAkAQBAAAA=</HashCode>
+      <FileName>ModelXBuy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.ModelYBuy" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhQAACAAARAABACAAAACAIAAAAAAQAAkAQBAAAA=</HashCode>
+      <FileName>ModelYBuy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Profile" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8BAAIgUAASAAABAAAACAAAACAAAYAAAAQOAnAQBAAAA=</HashCode>
+      <FileName>Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Program" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Register" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAgAQAAAAEAAAAgAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Sing_Up" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAIAEAASAAABGAAACACABSIAAIAQAAcEBgAQBAAgA=</HashCode>
+      <FileName>Sing Up.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.SingUp2" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIBQAACAAABEAAACACAASAAAIAQIAUEBgAQFAAAA=</HashCode>
+      <FileName>Sing Up2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Tesla_Drive" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIhQAACAAARAAAACAQAQCAMA4AAAAQAAgAYBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Tesla_Paneles" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIhQAACAAARAABACAAAACAMQ7AAAAwAArAQBAAAA=</HashCode>
+      <FileName>Tesla Paneles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Tesla_Robotics" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIhQAACAAARgABACAQAACAIAAAAAAQAAkAQBAAAA=</HashCode>
+      <FileName>Tesla Robotics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Tesla_Starlink" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MBAAAhQAACAAARAABACAAAACAIAIAAAAQEAkAQBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.TeslaEnergy" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIhQAACAAARAAAACAQAACAIAAAEAAQAAkAQBAAAA=</HashCode>
+      <FileName>TeslaEnergy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Login" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACEAAAACAAABAAAACACCASAIA4AAAAUHAgAQBAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.TeslaShop" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wAAIhQAgCAAARAAAECAQAACAAAIAIAAQPinAQBAADA=</HashCode>
+      <FileName>TeslaShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.Users" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tesla.ValidarCompra" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAQAACAAABAAAACACAACAAAIAAAAQEAgAQBAAAA=</HashCode>
+      <FileName>ValidarCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

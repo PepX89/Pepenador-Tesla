@@ -109,9 +109,9 @@
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(157, 37);
+            label4.Size = new Size(214, 37);
             label4.TabIndex = 19;
-            label4.Text = "CERRAR SESION";
+            label4.Text = "CARRITO DE COMPRAS";
             label4.Click += label4_Click;
             // 
             // label3
@@ -122,9 +122,10 @@
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(155, 37);
+            label3.Size = new Size(136, 37);
             label3.TabIndex = 18;
-            label3.Text = "   CONOCENOS   ";
+            label3.Text = "      SESION     ";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -258,6 +259,7 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 21;
             pictureBox14.TabStop = false;
+            pictureBox14.Click += pictureBox14_Click;
             // 
             // pictureBox13
             // 
@@ -279,6 +281,7 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 19;
             pictureBox12.TabStop = false;
+            pictureBox12.Click += pictureBox12_Click;
             // 
             // pictureBox11
             // 
@@ -402,6 +405,7 @@
             Controls.Add(pictureBox6);
             Controls.Add(panel1);
             Name = "Faccesorios";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Faccesorios";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

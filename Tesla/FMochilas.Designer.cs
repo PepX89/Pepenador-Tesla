@@ -35,9 +35,6 @@
             button6 = new Button();
             button5 = new Button();
             button4 = new Button();
-            label8 = new Label();
-            label7 = new Label();
-            label6 = new Label();
             pictureBox3 = new PictureBox();
             pictureBox1 = new PictureBox();
             pictureBox6 = new PictureBox();
@@ -83,11 +80,11 @@
             label11.BackColor = SystemColors.Desktop;
             label11.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(993, 450);
+            label11.Location = new Point(971, 175);
             label11.Name = "label11";
-            label11.Size = new Size(341, 18);
+            label11.Size = new Size(332, 18);
             label11.TabIndex = 60;
-            label11.Text = "            Mega Backpack            ";
+            label11.Text = "            Mega Backpack           ";
             label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -96,11 +93,11 @@
             label10.BackColor = SystemColors.Desktop;
             label10.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label10.ForeColor = Color.White;
-            label10.Location = new Point(545, 450);
+            label10.Location = new Point(545, 175);
             label10.Name = "label10";
-            label10.Size = new Size(368, 18);
+            label10.Size = new Size(332, 18);
             label10.TabIndex = 59;
-            label10.Text = "       Cybertruck Elevate Backpack      ";
+            label10.Text = "     Cybertruck Elevate Backpack    \r\n";
             label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label9
@@ -109,7 +106,7 @@
             label9.BackColor = SystemColors.Desktop;
             label9.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.White;
-            label9.Location = new Point(112, 450);
+            label9.Location = new Point(112, 175);
             label9.Name = "label9";
             label9.Size = new Size(332, 18);
             label9.TabIndex = 58;
@@ -121,80 +118,44 @@
             button6.BackColor = Color.Black;
             button6.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = SystemColors.ButtonHighlight;
-            button6.Location = new Point(993, 574);
+            button6.Location = new Point(971, 437);
             button6.Name = "button6";
-            button6.Size = new Size(332, 29);
+            button6.Size = new Size(332, 58);
             button6.TabIndex = 57;
             button6.Text = "Añadir al carrito";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button5
             // 
             button5.BackColor = Color.Black;
             button5.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.Location = new Point(545, 578);
+            button5.Location = new Point(545, 437);
             button5.Name = "button5";
-            button5.Size = new Size(332, 29);
+            button5.Size = new Size(332, 58);
             button5.TabIndex = 56;
             button5.Text = "Añadir al carrito";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
             button4.BackColor = Color.Black;
             button4.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.ForeColor = SystemColors.ButtonHighlight;
-            button4.Location = new Point(112, 572);
+            button4.Location = new Point(112, 437);
             button4.Name = "button4";
-            button4.Size = new Size(332, 29);
+            button4.Size = new Size(332, 58);
             button4.TabIndex = 55;
             button4.Text = "Añadir al carrito";
             button4.UseVisualStyleBackColor = false;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = SystemColors.Desktop;
-            label8.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(1011, 468);
-            label8.Name = "label8";
-            label8.Size = new Size(305, 90);
-            label8.TabIndex = 54;
-            label8.Text = "Nuestro Mega [back] Pack \r\nestá inspirado en los interiores \r\nveganos y las combinaciones \r\nde colores en blanco y negro de \r\nnuestros vehículos.";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.BackColor = SystemColors.Desktop;
-            label7.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(513, 468);
-            label7.Name = "label7";
-            label7.Size = new Size(422, 54);
-            label7.TabIndex = 53;
-            label7.Text = "Parte de la colección Elevate, nuestra mochila\r\nCybertruck Elevate está inspirada en el\r\n exterior de acero inoxidable de Cybertruck";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = SystemColors.Desktop;
-            label6.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(136, 468);
-            label6.Name = "label6";
-            label6.Size = new Size(278, 72);
-            label6.TabIndex = 49;
-            label6.Text = "Nuestro Mega Pack [mini] está \r\ninspirado en los interiores \r\nveganos y los colores blanco \r\ny negro de nuestros vehículos.";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
+            button4.Click += button4_Click;
             // 
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(993, 197);
+            pictureBox3.Location = new Point(971, 186);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(332, 250);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -204,9 +165,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(545, 197);
+            pictureBox1.Location = new Point(545, 186);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(332, 250);
+            pictureBox1.Size = new Size(332, 261);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 51;
             pictureBox1.TabStop = false;
@@ -214,7 +175,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(112, 197);
+            pictureBox6.Location = new Point(112, 186);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(332, 250);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -256,9 +217,10 @@
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(157, 37);
+            label4.Size = new Size(214, 37);
             label4.TabIndex = 19;
-            label4.Text = "CERRAR SESION";
+            label4.Text = "CARRITO DE COMPRAS";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
@@ -268,9 +230,10 @@
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(155, 37);
+            label3.Size = new Size(136, 37);
             label3.TabIndex = 18;
-            label3.Text = "   CONOCENOS   ";
+            label3.Text = "      SESION     ";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -360,6 +323,7 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 21;
             pictureBox14.TabStop = false;
+            pictureBox14.Click += pictureBox14_Click;
             // 
             // pictureBox13
             // 
@@ -381,6 +345,7 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 19;
             pictureBox12.TabStop = false;
+            pictureBox12.Click += pictureBox12_Click;
             // 
             // pictureBox11
             // 
@@ -448,14 +413,12 @@
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox6);
             Controls.Add(panel1);
             Name = "FMochilas";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FMochilas";
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -487,9 +450,6 @@
         private Button button6;
         private Button button5;
         private Button button4;
-        private Label label8;
-        private Label label7;
-        private Label label6;
         private PictureBox pictureBox3;
         private PictureBox pictureBox1;
         private PictureBox pictureBox6;

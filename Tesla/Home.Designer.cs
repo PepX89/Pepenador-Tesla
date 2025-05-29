@@ -134,6 +134,7 @@
             button3.TabIndex = 5;
             button3.Text = "TESLA DRIVE";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click_1;
             // 
             // button2
             // 
@@ -162,6 +163,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1404, 109);
             panel1.TabIndex = 7;
+            panel1.Paint += panel1_Paint_1;
             // 
             // pictureBox7
             // 
@@ -180,11 +182,12 @@
             label4.BackColor = Color.Gainsboro;
             label4.Font = new Font("Bebas Neue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(1120, 38);
+            label4.Location = new Point(898, 38);
             label4.Name = "label4";
-            label4.Size = new Size(169, 38);
+            label4.Size = new Size(153, 38);
             label4.TabIndex = 19;
-            label4.Text = "CERRAR SESION";
+            label4.Tag = "     ";
+            label4.Text = "      SESION     ";
             label4.Click += label4_Click;
             // 
             // label3
@@ -193,11 +196,11 @@
             label3.BackColor = Color.LightGray;
             label3.Font = new Font("Bebas Neue", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(907, 37);
+            label3.Location = new Point(1097, 39);
             label3.Name = "label3";
-            label3.Size = new Size(168, 38);
+            label3.Size = new Size(230, 38);
             label3.TabIndex = 18;
-            label3.Text = "   CONOCENOS   ";
+            label3.Text = "CARRITO DE COMPRAS";
             label3.Click += label3_Click;
             // 
             // label2
@@ -247,6 +250,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 10;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // pictureBox6
             // 
@@ -257,6 +261,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 11;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // button4
             // 
@@ -310,6 +315,7 @@
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 23;
             pictureBox16.TabStop = false;
+            pictureBox16.Click += pictureBox16_Click;
             // 
             // pictureBox15
             // 
@@ -332,6 +338,7 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 21;
             pictureBox14.TabStop = false;
+            pictureBox14.Click += pictureBox14_Click;
             // 
             // pictureBox13
             // 
@@ -342,6 +349,7 @@
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 20;
             pictureBox13.TabStop = false;
+            pictureBox13.Click += pictureBox13_Click_1;
             // 
             // pictureBox12
             // 
@@ -353,6 +361,7 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 19;
             pictureBox12.TabStop = false;
+            pictureBox12.Click += pictureBox12_Click_1;
             // 
             // pictureBox11
             // 
@@ -363,6 +372,7 @@
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 18;
             pictureBox11.TabStop = false;
+            pictureBox11.Click += pictureBox11_Click_1;
             // 
             // pictureBox9
             // 
@@ -374,6 +384,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 17;
             pictureBox9.TabStop = false;
+            pictureBox9.Click += pictureBox9_Click;
             // 
             // pictureBox10
             // 
@@ -384,6 +395,7 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 16;
             pictureBox10.TabStop = false;
+            pictureBox10.Click += pictureBox10_Click_1;
             // 
             // label5
             // 
@@ -428,6 +440,7 @@
             Controls.Add(pictureBox1);
             ForeColor = SystemColors.ControlLight;
             Name = "Home";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tesla Home";
             Load += Home_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

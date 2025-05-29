@@ -113,9 +113,10 @@
             label4.ForeColor = Color.Black;
             label4.Location = new Point(1120, 38);
             label4.Name = "label4";
-            label4.Size = new Size(169, 38);
+            label4.Size = new Size(230, 38);
             label4.TabIndex = 19;
-            label4.Text = "CERRAR SESION";
+            label4.Text = "CARRITO DE COMPRAS";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
@@ -125,9 +126,10 @@
             label3.ForeColor = Color.Black;
             label3.Location = new Point(907, 37);
             label3.Name = "label3";
-            label3.Size = new Size(168, 38);
+            label3.Size = new Size(153, 38);
             label3.TabIndex = 18;
-            label3.Text = "   CONOCENOS   ";
+            label3.Text = "      SESION     ";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
@@ -140,6 +142,7 @@
             label2.Size = new Size(153, 37);
             label2.TabIndex = 17;
             label2.Text = "   ACCESORIOS  ";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -163,6 +166,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // panel2
             // 
@@ -351,7 +355,7 @@
             button1.Name = "button1";
             button1.Size = new Size(317, 50);
             button1.TabIndex = 25;
-            button1.Text = "INDIVIDAL PANEL";
+            button1.Text = "INDIVIDUAL PANEL";
             button1.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -389,6 +393,7 @@
             button4.TabIndex = 28;
             button4.Text = "AÑADIR AL CARRITO";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button6
             // 
@@ -401,6 +406,7 @@
             button6.TabIndex = 29;
             button6.Text = "AÑADIR AL CARRITO";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -413,6 +419,7 @@
             button7.TabIndex = 30;
             button7.Text = "AÑADIR AL CARRITO";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -425,6 +432,7 @@
             button8.TabIndex = 31;
             button8.Text = "AÑADIR AL CARRITO";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // Tesla_Paneles
             // 
@@ -447,6 +455,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Tesla_Paneles";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "{";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

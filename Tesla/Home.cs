@@ -57,6 +57,8 @@ namespace Tesla
             RedondearLabel(label3, 10);
             RedondearLabel(label4, 10);
 
+
+
         }
 
 
@@ -79,7 +81,9 @@ namespace Tesla
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            Tesla_Drive drive = new Tesla_Drive();
+            drive.Show();
+            this.Hide();
 
         }
 
@@ -90,7 +94,9 @@ namespace Tesla
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            TeslaEnergy energy = new TeslaEnergy();
+            energy.Show();
+            this.Hide();
 
         }
 
@@ -101,15 +107,23 @@ namespace Tesla
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            Tesla_Robotics robot = new Tesla_Robotics();
+            robot.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Fcarga F1 = new Fcarga();
             F1.Show();
             this.Hide();
 
+=======
+            TeslaEnergy ene = new TeslaEnergy();
+            ene.Show();
+            this.Hide();
+>>>>>>> 13.24
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -144,22 +158,85 @@ namespace Tesla
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            TeslaShop shop = new TeslaShop();
+            shop.Show();
+            this.Hide();
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Faccesorios F = new Faccesorios();
+            Faccesorios F = new Faccesorios(); // Nos envia a otro formulario
             F.Show();
             this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            Profile profile = new Profile();
+            profile.Show();
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Tesla_Starlink star = new Tesla_Starlink();
+            star.Show();
+            this.Hide();
+        }
+
+        private void pictureBox12_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox11_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox10_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            ModelCybertruckBuy cyber = new ModelCybertruckBuy();
+            cyber.Show();
+            this.Hide();
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }

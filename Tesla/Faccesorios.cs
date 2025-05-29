@@ -58,7 +58,9 @@ namespace Tesla
 
         private void label4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            TeslaShop shop = new TeslaShop();
+            shop.Show();
+            this.Hide();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -98,7 +100,26 @@ namespace Tesla
 
         private void label2_Click(object sender, EventArgs e)
         {
+            Faccesorios f2 = new Faccesorios();
+            f2.Show();
+            this.Hide();
+        }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Profile profile = new Profile();
+            profile.Show();
+            this.Hide();
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.tesla.com/");
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.tesla.com/");
         }
 
         private void label1_Click(object sender, EventArgs e)
