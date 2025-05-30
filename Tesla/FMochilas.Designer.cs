@@ -32,7 +32,6 @@
             label11 = new Label();
             label10 = new Label();
             label9 = new Label();
-            button6 = new Button();
             button5 = new Button();
             button4 = new Button();
             pictureBox3 = new PictureBox();
@@ -113,19 +112,6 @@
             label9.Text = "           Mega [Mini] pack         ";
             label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button6
-            // 
-            button6.BackColor = Color.Black;
-            button6.Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.ForeColor = SystemColors.ButtonHighlight;
-            button6.Location = new Point(971, 437);
-            button6.Name = "button6";
-            button6.Size = new Size(332, 58);
-            button6.TabIndex = 57;
-            button6.Text = "Añadir al carrito";
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
-            // 
             // button5
             // 
             button5.BackColor = Color.Black;
@@ -137,6 +123,7 @@
             button5.TabIndex = 56;
             button5.Text = "Añadir al carrito";
             button5.UseVisualStyleBackColor = false;
+
             button5.Click += button5_Click;
             // 
             // button4

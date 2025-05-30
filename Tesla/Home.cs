@@ -114,16 +114,6 @@ namespace Tesla
 
         private void label1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            Fcarga F1 = new Fcarga();
-            F1.Show();
-            this.Hide();
-
-=======
-            TeslaEnergy ene = new TeslaEnergy();
-            ene.Show();
-            this.Hide();
->>>>>>> 13.24
         }
 
         private void label5_Click(object sender, EventArgs e)
